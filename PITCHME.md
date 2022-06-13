@@ -1,75 +1,134 @@
 ---
-marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
-theme: uncover
+title: Demo
+description: Demo Bootcamp Marp Template
+class: invert
+_class:
+  - invert
+  - lead
+footer: Presentation Title | Author Name
+_footer: ""
 paginate: true
 _paginate: false
+marp: true
+theme: d8niz
 ---
 
-![bg](./assets/gradient.jpg)
+# Bootcamp Marp Slides Template
 
-# <!--fit--> Marp CLI example
+Eteration
 
-Hosting Marp slide deck on the web
-
-https://github.com/yhatt/marp-cli-example
-
-<style scoped>a { color: #eee; }</style>
-
-<!-- This is presenter note. You can write down notes through HTML comment. -->
+Deniz Memis
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+# Outline
+
+- Marp Header
+- Light Theme
+- Bullet Points
+- Tables
+- Images
+- Code
+- References
 
 ---
 
-<!-- _backgroundColor: "#123" -->
-<!-- _color: "#fff" -->
+# Marp Header
 
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
-
----
-
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
-
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
-
----
-
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+```yml
+title: Demo
+description: Demo TUM Marp Template
+class: invert # Dark theme all slides (remove to use light theme)
+_class: # First slide
+  - invert # Dark theme for title slide
+  - lead # Title slide style
+footer: Presentation Title | Author Name # Slide footer
+_footer: "" # No footer on title slide
+paginate: true # Page numbers
+_paginate: false # No page numbers on title slide
+marp: true # Nice preview for the VS Code extension
+```
 
 ---
 
-![bg right 60%](https://icongr.am/simple/zeit.svg)
+# Bullet Points
 
-## **[Vercel](https://vercel.com/)**
+- Show all
+- at once
 
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
-
----
-
-### <!--fit--> :ok_hand:
+* or one
+* by one
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+# Tables
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+| Header | Header |
+| ------ | ------ |
+| Text   | Text   |
 
-https://github.com/yhatt/marp-cli-example
+---
+
+# Images
+
+![](images/TUM_Logo_weiss_rgb_s.svg)
+
+---
+
+# Background Images
+
+- Full Size
+
+![bg right](./assets/academy.jpg)
+
+---
+
+# Background Images Customized
+
+- 60% slide width
+- 80% image size
+
+![bg right:60% 80%](./assets/academy.jpg)
+
+---
+
+# Code
+
+<style scoped>
+pre {
+   font-size: 2rem;
+   background-color: #000
+}
+</style>
+
+```cpp
+#include <iostream>
+
+int main(int /*argc*/, char** /*argv*/)
+{
+    std::cout << "Code with syntax highlighting!" << std::endl;
+
+    return EXIT_SUCCESS;
+}
+
+```
+
+---
+
+<!-- _class: lead -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+# Light Theme
+
+---
+
+<!-- _class: -->
+
+# Light Theme Slide
+
+## References
+
+- [Get Started](https://github.com/marp-team/marp)
+- [Documentation](https://marpit.marp.app/)
+- [CLI](https://github.com/marp-team/marp-cli)
