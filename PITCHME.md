@@ -1,9 +1,7 @@
 ---
 title: Demo
 description: Demo Bootcamp Marp Template
-class: invert
 _class:
-  - invert
   - lead
 footer: Presentation Title | Author Name
 _footer: ""
@@ -13,18 +11,11 @@ marp: true
 theme: d8niz
 ---
 
-# Bootcamp Marp Slides Template
-
-Eteration
-
-Deniz Memis
-
 ---
 
 # Outline
 
 - Marp Header
-- Light Theme
 - Bullet Points
 - Tables
 - Images
@@ -35,12 +26,17 @@ Deniz Memis
 
 # Marp Header
 
+<style scoped>
+pre {
+   font-size: 2rem;
+   background-color: #000;
+}
+</style>
+
 ```yml
 title: Demo
 description: Demo TUM Marp Template
-class: invert # Dark theme all slides (remove to use light theme)
 _class: # First slide
-  - invert # Dark theme for title slide
   - lead # Title slide style
 footer: Presentation Title | Author Name # Slide footer
 _footer: "" # No footer on title slide
@@ -63,19 +59,21 @@ marp: true # Nice preview for the VS Code extension
 
 # Tables
 
-| Header | Header |
-| ------ | ------ |
-| Text   | Text   |
+| Header | Header | Header |
+| ------ | ------ | ------ |
+| Text   | Text   | Text   |
+| Text   | Text   | Text   |
+| Text   | Text   | Text   |
 
 ---
 
 # Images
 
-![](images/TUM_Logo_weiss_rgb_s.svg)
+![](assets/academy.jpg)
 
 ---
 
-# Background Images
+## Background Images
 
 - Full Size
 
@@ -83,7 +81,7 @@ marp: true # Nice preview for the VS Code extension
 
 ---
 
-# Background Images Customized
+## Background Images Customized
 
 - 60% slide width
 - 80% image size
@@ -114,18 +112,6 @@ int main(int /*argc*/, char** /*argv*/)
 ```
 
 ---
-
-<!-- _class: lead -->
-<!-- _footer: "" -->
-<!-- _paginate: "" -->
-
-# Light Theme
-
----
-
-<!-- _class: -->
-
-# Light Theme Slide
 
 ## References
 

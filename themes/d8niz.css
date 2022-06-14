@@ -3,50 +3,39 @@
 @import "default";
 
 section {
-  background-color: #fff;
-  color: #000;
-  background-image: url("../assets/eteration-logo-dark.png");
+  background-color: #212121;
+  color: #fff;
+  background-image: url("../assets/eteration-logo-light.png");
   background-repeat: no-repeat;
   background-position: right 40px top 40px;
   background-size: 8%;
 }
 
 section.lead {
-  background-image: url("../assets/academy.jpg");
-  background-position: right;
-  background-size: 60%;
+  background-image: url("../assets/academy-logo.svg"),
+    url("../assets/academy.jpg");
+  background-size: 40%, 65%;
+  background-position: center top 290px, right 100px top 40px;
+  background-repeat: no-repeat, round;
 }
 
 section h1,
-section a,
+section h2,
 section footer,
 section::after {
-  color: #000;
-}
-
-section a {
   color: #ff6600;
 }
 
-section.invert {
+section table,
+section th,
+section td,
+section tr {
   background-color: #212121;
-  color: #fff;
-  background-image: url("../assets/eteration-logo-light.png");
+  color: whitesmoke;
 }
 
-section.lead.invert {
-  background-image: url("");
-  background-size: 100%;
-}
-
-section.invert h1,
-section.invert footer,
-section.invert::after {
-  color: #fff;
-}
-
-section.invert a {
-  color: #e37222;
+section a {
+  color: lightskyblue;
 }
 
 /* Add "Page" prefix and total page number */
