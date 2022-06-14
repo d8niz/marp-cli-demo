@@ -35,7 +35,7 @@ pre {
 
 ```yml
 title: Demo
-description: Demo TUM Marp Template
+description: Demo Bootcamp Marp Template
 _class: # First slide
   - lead # Title slide style
 footer: Presentation Title | Author Name # Slide footer

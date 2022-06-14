@@ -1,8 +1,8 @@
 {
-  "name": "marp-cli-example",
-  "version": "0.0.0",
-  "author": "Yuki Hattori <yukihattori1116@gmail.com>",
-  "license": "WTFPL",
+  "name": "marp-cli-demo",
+  "version": "0.0.1",
+  "author": "d8niz",
+  "license": "",
   "private": true,
   "scripts": {
     "build": "rimraf public && npm run -s og-image && npm run -s deck",
