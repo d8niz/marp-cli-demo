@@ -5,15 +5,14 @@
 section {
   background-color: #212121;
   color: #fff;
-  background-image: url("../assets/eteration-logo-light.png");
+  background-image: url("assets/eteration-logo-light.png");
   background-repeat: no-repeat;
   background-position: right 40px top 40px;
   background-size: 8%;
 }
 
 section.lead {
-  background-image: url("../assets/academy-logo.svg"),
-    url("../assets/academy.jpg");
+  background-image: url("assets/academy-logo.svg"), url("assets/academy.jpg");
   background-size: 40%, 65%;
   background-position: center top 290px, right 100px top 40px;
   background-repeat: no-repeat, round;
